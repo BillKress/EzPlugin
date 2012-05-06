@@ -1,0 +1,12 @@
+name: EzPlugin
+main: tv.kress.bill.minecraft.ezplugin.EzPlugin
+version: 0.02
+commands:
+  ezpz:       
+    description: Reload updated EzPlugin plugins
+    usage: /ezpz
+    permission: EzPlugin
+    permission-message: No U Can do!
+  ezp:
+    description: forward parameters to script
+    usage: /ezp command params.  /ezp alone will give a list of commands.
